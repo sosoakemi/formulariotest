@@ -42,6 +42,7 @@ body{
 
 fieldset {
     border: 0;
+    margin-left: 20px;
 }
 
 body{
@@ -68,10 +69,17 @@ input, select, textarea, button {
 
 
 
+.campo2{
+    margin-bottom: 1em;
+    margin-right: 25px;
+    margin-left: 8px;
 
+}
 
 .campo {
     margin-bottom: 1em;
+    margin-right: 25px;
+    margin-left: 8px;
 }
 
 
@@ -84,7 +92,8 @@ input, select, textarea, button {
 
 fieldset.grupo .campo {
     float:  left;
-    margin-right: 1em;
+    margin-right: 25px;
+    margin-left: 8px;
 }
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {

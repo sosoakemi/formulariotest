@@ -32,19 +32,20 @@
              <label for="sobrenome"><strong>Sobrenome</strong></label>
           <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
             </div>
-          </fieldset>
-      <br>
-      <div class="campo">
-            <label for="email"><strong>Email</strong></label>
-          <input type="email" name="email" id="email"placeholder="Digite seu nome" required>
-      </div>
-      <div class="campo">
-        <label for="senha"><strong>Senha</strong></label>
-        <input type="text" name="date" id="date"placeholder="Digite sua senha" required>   
-      </div>
-      <br>
+
+            <div class="campo">
+              <label for="senha"><strong>Senha</strong></label>
+              <input type="text" name="date" id="date"placeholder="Digite sua senha" required>   
+            </div>
+
+            <div class="campo">
+              <label for="email"><strong>Email</strong></label>
+            <input type="email" name="email" id="email"placeholder="Digite seu nome" required>
+        </div>
+     
       <div class="campo">
         <label><strong>De qual modalidade voce participa?</strong></label>
+        
         <label>
         <input type="radio" nome="pilates" value="pilates" checked>Pilates
         </input>
@@ -60,8 +61,13 @@
         
     </label>
         </div>
+      </fieldset>
 
-        <div class="campo2">
+      
+       
+      <fieldset class="grupo1">
+
+        <div class="campo">
         
             <label for="modalidades"> <strong>Modalidades de Interesse:  </strong> </label>
         </div>
@@ -85,8 +91,10 @@
           <input type="radio" id="interesse5" name="interesse" value="dança" Dança>
           <label for="Danca">Dança</label>
       </div>
+    </fieldset>
     <br>
-    <div class="campo">
+     <fieldset> 
+    <div class="campo1">
       <label for="genero"><strong> Gênero </strong></label>
       <select id="genero">
         <option selected disable value="">Selecione</option>
@@ -96,19 +104,19 @@
      
     </div>
 
-  
-      </fieldset>
+      
+
     <div class="campo">
       <br>
       <label><strong>Conte um pouco da sua experiência:</strong></label>
       <textarea row="6" style="width: 26em" id="experiencia" nome="experiencia"></textarea>
     </div>
+  </fieldset>
     
  
 
   <button class="button">
-
-  Continue
+ Continue
   <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
     <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
   </svg>
